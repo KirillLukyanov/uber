@@ -1,0 +1,230 @@
+* {
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    position: relative;
+}
+
+nav {
+    height: 50px;
+    background: #212121;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 11px 70px 0;
+
+}
+
+.menu .menu-item:not(:last-child) {
+    border-right: 2px dotted black;
+    padding-right: 29px;
+    height: 26px;
+}
+
+.menu .menu-item a {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+
+.subheader {
+    padding-top: 50px;
+    height: 137px;
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    width: 100%;
+}
+
+.subheader-logo {
+    max-width: 100%;
+    margin-top: 17px;
+    display: block;
+}
+
+.subheader-logo-text {
+    font-style: normal;
+    font-weight: 200;
+    font-size: 13px;
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+
+.subheader-phone {
+    text-align: right;
+    margin-top: 24px;
+}
+
+.subheader-phone-text {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+}
+
+.subheader-phone-number {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    color: #FFFFFF;
+}
+
+.subheader-btn {
+    margin-top: 20px;
+    width: 172px;
+    height: 46px;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+    cursor: pointer;
+    outline: none;
+}
+
+.promo {
+    padding-top: 211pX;
+    min-height: 800px;
+    background: url('../img/bg/uber_bg.jpg') center 50px/cover no-repeat;
+}
+
+.promo .page-header {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.promo .page-subheader {
+    margin-top: 22px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.promo .promo-text {
+    margin-top: 16px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.promo .promo-btn {
+    display: block;
+    width: 259px;
+    height: 63px;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+    cursor: pointer;
+    outline: none;
+    margin: 115px auto 0;
+}
+
+.advantages {
+    min-height: 850px;
+    padding: 20px 0 64px;
+}
+
+.advantages .label {
+    width: 113px;
+    height: 24px;
+    display: block;
+    margin: 0 auto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    background: #000000;
+}
+
+.advantages .title {
+    margin-top: 33px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #222222;
+}
+
+.advantages .reason-item {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.advantages .reason-item .reason-item-logo {
+    width: 116px;
+    height: 116px;
+    background: #1EACC7;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 25px;
+}
+
+.advantages .reason-item .reason-item-text {
+    width: 372px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    color: #202020;
+}
+
+.advantages .reason-item.column-right .reason-item-text {
+    width: 341px;
+}
+
+.advantages .reason-item .reason-item-text h4 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 21px;
+    color: #1EACC7;
+}
